@@ -1,0 +1,407 @@
+* {
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+:root {
+    --color1: #282A35;
+    --color2: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header Section Start */
+header {
+    background-color: whitesmoke;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+
+#logo {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.8em;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar a {
+    color: blue;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight:700;
+    padding-right: 20px;
+    transition: 0.5s ease;
+}
+
+#navbar a:hover {
+    color: darkblue;
+    font-size: 1.4em;
+}
+/* Heading Section End  */
+
+/* Intro Section Start  */
+#intro {
+    min-height: 100vh;
+    padding: 100px 150px;
+    background-color: var(--color1);
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+#intro h1 {
+    font-size: 7em;
+}
+
+#intro span {
+    font-size: 3.5em;
+}
+
+#intr_social a i{
+    color: var(--color2);
+    margin-right: 20px;
+}
+/* Intro Section End  */
+
+
+/* Skill Section Start  */
+/* #skills-section {
+    padding: 0 0;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    transition: 0.5s ease;
+}
+
+.skills-card {
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 12px;
+    width: calc(94% / 5);
+    background-color: #f8f8f8;
+    transition: 0.5s ease;
+    box-shadow: 0 0 8px 0px black;
+}
+
+.skills-card:hover {
+    transform: scale(1.05);
+}
+
+.skills-card a i{
+    font-size: 9em;
+} */
+/* Skills Section End  */
+
+/* Projects Section Start  */
+#projects {
+    background-color: var(--color1);
+}
+
+.projects_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project_card {
+    background-color: var(--color2);
+    border: 1px solid white;
+    width: 26em;
+    min-height: 17em;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: 0.8s ease;
+}
+
+.project_card:hover {
+    transform: scale(1.05);
+}
+
+.project_photo img {
+    width: 100%;
+}
+
+.projecr_description {
+    padding: 10px;
+}
+
+.projecr_description h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.projecr_description p {
+    font-size: 1em;
+}
+
+.project_tools a i{
+    padding-top: 10px;
+    font-size: 2em;
+}  
+/* Project Section End  */
+
+/* Contact Section Start  */
+.contact_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contact_card {
+    width: calc(60% / 2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Contact Section End  */
+
+/* Footer Section Start  */
+footer {
+    color: var(--color2);
+    background-color: var(--color1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-size: 1.6em;
+}
+
+.social_footer a {
+    color: var(--color2);
+}
+
+.social_footer > :first-child {
+    margin-right: 20px;
+}
+/* Footer Section End  */
+
+
+
+/* Section Headers */
+.section_title_b {
+    color: var(--color1);
+    font-size: 4em;
+    text-align: center;
+    padding: 0.4em;
+}
+
+.section_title_w {
+    color: var(--color2);
+    font-size: 4em;
+    text-align: center;
+    padding: 0.4em;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    #intro {
+        text-align: center;
+        padding: 0px;
+    }
+
+    #intro div {
+        margin: auto;
+    }
+    #intro h1{
+        font-size: 3em;
+    }
+
+    #intro span{
+        font-size: 2em;
+    }
+
+    #skills {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .skills-card {
+        text-align: center;
+        width: 90%;
+    }
+
+    .projects_section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project_card {
+        width: 90%;
+    }
+
+    .contact_div {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact_card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1000px) {
+    header {
+        padding: 10px;
+    }
+
+    #intro {
+        text-align: center;
+        padding: 0px;
+    }
+
+    #intro h1{
+        font-size: 3em;
+    }
+
+    #intro span{
+        font-size: 2em;
+    }
+
+    #skills {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .skills-card {
+        text-align: center;
+        width: 90%;
+    }
+
+    .projects_section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project_card {
+        width: 90%;
+    }
+
+    .contact_div {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact_card {
+        width: 90%;
+    }
+}
+
+
+.animation i {
+    font-size: 100px;
+}
+
+.animation {
+    opacity: 0.3;
+    top: -43px;
+    right: 1px;
+    position: absolute;
+}
+
+.x2 {
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+.x3 {
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+}
+
+.x4 {
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+}
+
+.x5 {
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+}
+@keyframes move {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(calc(100vh + 43px));
+    }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    padding: 100px;
+    gap: 25px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 30px;
+    }
+    
+}
+
+.container .skill {
+    text-align: center;
+}
+
+.container .skill h3 {
+    font-size: 30px;
+}
+
+.container .skill p {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+#skills i {
+    color: var(--color1)
+}
+
+/* .skill_animation i:nth-child(2) {
+    animation-name: doit;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+@keyframes doit {
+    25% {
+        transform: translateX(2px);
+    }
+    50% {
+        transform: translateX(0px);
+    }
+    75% {
+        transform: translateX(-2px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+} */
