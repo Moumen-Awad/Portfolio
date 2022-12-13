@@ -230,8 +230,34 @@ footer h3 {
 }
 
 footer a {
-    margin-right: 22px;
+    font-size: 2em;
+    margin-right: 10px;
     color: var(--color2);
+}
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    footer a {
+        font-size: 3em;
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+    footer a {
+        margin-right: 22px;
+        font-size: 4em;
+    }
+}
+
+@media (min-width: 1400px) {
+
 }
 /* Footer Section End  */
 
