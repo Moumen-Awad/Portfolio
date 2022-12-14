@@ -24,7 +24,9 @@
 }
 
 :root {
-    --color1: #282A35;
+    --color1: #00BCD4;
+    /* --color1: #9FA8DA; */
+    /* --color1: #282A35; */
     --color2: white;
 }
 
