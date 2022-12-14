@@ -12,6 +12,49 @@ html {
     scroll-behavior: smooth;
 }
 
+section {
+    padding: 0px 80px 80px 80px;
+}
+
+.html_icon {
+    color: #e44d26;
+}
+
+.css_icon {
+    color: #2965f1;
+}
+
+.js_icon {
+    color: #f2ce37;
+}
+
+.react_icon {
+    color: #09cef2;
+}
+
+.git_icon {
+    color: #f84e28;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Intro Section Start  */
 header {
     min-height: 100vh;
@@ -74,11 +117,47 @@ header > div {
 /* Intro Section End  */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Skill Section Start  */
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-    padding: 0px 80px 80px 80px;
     gap: 25px;
 }
 
@@ -128,6 +207,51 @@ header > div {
     margin: 0 10px;
 }
 /* Skills Section End  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Projects Section Start  */
 #projects {
@@ -180,46 +304,138 @@ header > div {
 .projects_soon{
     color: var(--color2);
     text-align: center;
-    padding-bottom: 30px;
+    margin: 0;
 }
 /* Project Section End  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Certificates Section Start */
 .b2 {
     color: var(--color1);
 }
-/* Certificates Section End */
 
-/* Contact Section Start  */
-.contact_div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.contact_card {
-    width: calc(60% / 2);
+.courses .card {
     text-align: center;
     padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
 }
 
-.contact_card a {
-    text-decoration: none;
-    color: black;
+.courses .card:hover {
+    transition: 2.5s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
-/* .contact_card a:hover {
-    color: cornflowerblue;
-} */
-/* Contact Section End  */
+#certificates .courses .card .photo{ 
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    justify-content: center;
+}
+
+#certificates .courses img{ 
+    width: 300px;
+}
+
+.card_1 {
+    box-shadow: rgb(218 168 85) 0px 0px 0px 3px; 
+}
+
+.card_2 {
+    box-shadow: rgb(0 86 210) 0px 0px 0px 3px; 
+}
+
+.card_3 {
+    box-shadow: rgb(3 239 98) 0px 0px 0px 3px; 
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Certificates Section End  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer Section Start  */
 footer {
     background-color: var(--color1);
     color: var(--color2);
-    padding: 20px;
+    padding: 5px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
