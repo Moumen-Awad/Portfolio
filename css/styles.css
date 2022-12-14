@@ -1,3 +1,23 @@
+/* @media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+} */
+
 * {
     box-sizing: border-box;
     font-family: "Manrope", sans-serif;
@@ -10,10 +30,6 @@
 
 html {
     scroll-behavior: smooth;
-}
-
-section {
-    padding: 0px 80px 80px 80px;
 }
 
 .html_icon {
@@ -36,9 +52,40 @@ section {
     color: #f84e28;
 }
 
+.section_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 25px;
+    padding: 0px 20px 20px 20px;
+}
 
+@media (min-width: 576px) {
+    .section_container {
+        padding: 0px 30px 30px 30px;
+    }
+}
 
+@media (min-width: 768px) {
+    .section_container {
+        padding: 0px 40px 40px 40px;
+    }
+}
 
+@media (min-width: 992px) {
+    .section_container {
+        padding: 0px 60px 60px 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section_container {
+        padding: 0px 80px 80px 80px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+}
 
 
 
@@ -155,19 +202,7 @@ header > div {
 
 
 /* Skill Section Start  */
-.container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-    gap: 25px;
-}
-
-@media (max-width: 767px) {
-    .container {
-        padding: 24px;
-    }
-    
-}
-.container .skill {
+.skill_card {
     padding: 20px;
     text-align: center;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -176,34 +211,30 @@ header > div {
     /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
 }
 
-.skill:hover {
-    transition: 0.5s;
+.skill_card:hover {
+    transition: 0.7s;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; */
 }
 
-.container .skill h3 {
+.skill_card h3 {
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.skill p {
+.skill_card p {  
     font-weight: 900;
     line-height: 25px;
     text-align: start;
 }
 
-.skill p::first-letter {
+.skill_card p::first-letter {
     text-decoration: underline;
     font-size: 20px;
 }
 
-#skills i {
-    color: var(--color1);
-}
-
-.skill div i{
+.skill_card div i{
     margin: 0 10px;
 }
 /* Skills Section End  */
@@ -304,7 +335,7 @@ header > div {
 .projects_soon{
     color: var(--color2);
     text-align: center;
-    margin: 0;
+    padding-bottom: 40px;
 }
 /* Project Section End  */
 
@@ -343,25 +374,25 @@ header > div {
     color: var(--color1);
 }
 
-.courses .card {
+.certificate_card {
     text-align: center;
     padding: 20px;
     /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
 }
 
-.courses .card:hover {
+.certificate_card:hover {
     transition: 2.5s ease-out;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
-#certificates .courses .card .photo{ 
+.certificate_card .photo{ 
     display: flex;
     align-items: center;
     min-height: 100px;
     justify-content: center;
 }
 
-#certificates .courses img{ 
+.certificate_card img{ 
     width: 300px;
 }
 
