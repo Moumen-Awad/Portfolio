@@ -54,6 +54,10 @@ html {
     color: #f84e28;
 }
 
+.chart_icon {
+    color: rgb(3 239 98);
+}
+
 .section_container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
