@@ -24,10 +24,10 @@
 }
 
 :root {
-    --color1: #00BCD4;
-    /* --color1: #9FA8DA; */
+    /* --color1: #2C302E; */
+    --color1: #314CB6;
     /* --color1: #282A35; */
-    --color2: white;
+    --color2: #fbf7fc;
 }
 
 html {
@@ -489,7 +489,7 @@ footer a {
 
 @media (min-width: 768px) {
     footer a {
-        font-size: 3em;
+        font-size: 2.5em;
         margin-right: 15px;
     }
 }
@@ -501,7 +501,7 @@ footer a {
 @media (min-width: 1200px) {
     footer a {
         margin-right: 22px;
-        font-size: 4em;
+        font-size: 3em;
     }
 }
 
