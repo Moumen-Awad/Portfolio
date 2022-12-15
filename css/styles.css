@@ -24,10 +24,21 @@
 }
 
 :root {
+    /* --color1: #A7ACD9;
+    --color2: #000000; */
+
+    --color1: #ADD7F6;
+    --color2: #000000;
+
+
     /* --color1: #2C302E; */
-    --color1: #314CB6;
     /* --color1: #282A35; */
-    --color2: #fbf7fc;
+
+
+
+
+    /* --color2: #fbf7fc; */
+    /* --color1: #314CB6; */
 }
 
 html {
