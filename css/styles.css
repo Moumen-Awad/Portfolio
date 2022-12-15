@@ -104,6 +104,20 @@ html {
 
 }
 
+.section_header {
+    font-size: 4em;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+.black_header {
+    color: var(--color2);
+}
+
+.white_header {
+    color: var(--color2);
+}
+
 
 
 
@@ -545,19 +559,7 @@ footer a {
 
 
 /* Section Headers */
-.section_header {
-    font-size: 4em;
-    text-align: center;
-    padding: 40px;
-    margin: 0;
-}
-.black_header {
-    color: var(--color1);
-}
 
-.white_header {
-    color: var(--color2);
-}
 
 @media (max-width: 600px) {
     header {
