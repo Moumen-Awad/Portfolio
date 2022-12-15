@@ -406,15 +406,15 @@ header > div {
 }
 
 .card_1 {
-    box-shadow: rgb(218 168 85) 0px 0px 0px 3px; 
+    box-shadow: rgb(218 168 85) 0px 0px 0px 6px; 
 }
 
 .card_2 {
-    box-shadow: rgb(0 86 210) 0px 0px 0px 3px; 
+    box-shadow: rgb(0 86 210) 0px 0px 0px 6px; 
 }
 
 .card_3 {
-    box-shadow: rgb(3 239 98) 0px 0px 0px 3px; 
+    box-shadow: rgb(3 239 98) 0px 0px 0px 6px; 
 }
 
 .logos {
