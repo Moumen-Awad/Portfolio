@@ -330,7 +330,9 @@ header > div {
 }
 
 .project_card {
-    background-color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
     border: 1px solid white;
     width: 26em;
     min-height: 17em;
@@ -349,6 +351,9 @@ header > div {
 }
 
 .projecr_description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     padding: 10px;
 }
 
@@ -358,6 +363,7 @@ header > div {
 }
 
 .projecr_description p {
+    flex: 1;
     font-size: 1em;
 }
 
@@ -409,6 +415,8 @@ header > div {
 }
 
 .certificate_card {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 20px;
     /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
@@ -417,6 +425,10 @@ header > div {
 .certificate_card:hover {
     transition: 2.5s ease-out;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.certificate_card h2 {
+    flex: 1;
 }
 
 .certificate_card .photo{ 
